@@ -1,0 +1,273 @@
+body{
+	margin:0;
+	font-size:1.25vw;
+	font-family:'Public Sans Thin';
+	overflow-x:hidden;
+	color:hsl(233, 8%, 62%)
+
+}
+
+
+
+
+.header{
+	display:flex;
+	justify-content:space-around;
+	padding:1.5em;
+	padding-bottom:1.25em;
+	box-shadow: 5px 2px 5px hsl(0, 0%, 98%);
+	position:relative;
+	background-color:white;
+}
+.logoimg{
+	margin-bottom:1.5%;
+	margin-top:.75%;
+}
+
+.header button{
+	margin-left:1em;
+}
+
+
+.buttons button{
+
+	margin-left:1em;
+	padding-bottom:0.75em;
+	
+	padding-top:0.75em;
+	color:hsl(233, 8%, 62%);
+
+}
+.buttons{
+	display:flex;
+	justify-content:space-around;
+	width:30%;
+}
+.buttons button:hover{
+	 border-width: 3px;
+	 border-style: solid;
+	 border-image:linear-gradient(to right ,hsl(136, 65%, 51% ), hsl(192, 70%, 51% )) 0 0 1 0 ;
+}
+
+.homebutton, .aboutbutton, .contactbutton, .blogcontactbutton , .careersbutton{
+
+
+	all:unset;
+	cursor:pointer;
+	position:relative;
+}
+
+
+.requestinvbutton{
+
+	all:unset;
+	background:linear-gradient(to right ,hsl(136, 65%, 51% ), hsl(192, 70%, 51% ));
+	cursor:pointer;
+	border-radius:2em;
+	padding:0 3%  0% 3%;
+	margin-right:5%;
+	color:white;	
+}
+
+
+
+
+
+
+.paraandbglogo{
+	display:flex;
+	justify-content:space-between;
+	
+}
+.first{
+	width:100%;
+	padding-top:10%;
+	padding-left:10%;
+}
+.firstheadline{
+	font-weight:400;
+	font-size:4.097vw;
+	color:hsl(233, 26%, 24%);
+	width:70%;
+	margin:0;
+
+}
+.firstparagraph{
+		color:hsl(233, 8%, 62%);
+		width:66%;
+		font-size:1.25vw;
+
+}
+
+.firstbutton{
+	all:unset;
+	background:linear-gradient(to right ,hsl(136, 65%, 51% ), hsl(192, 70%, 51% ));
+	cursor:pointer;
+	border-radius:2em;
+	padding:2% 5%  2% 5%;
+	margin-right:5%;
+	color:white;
+	font-size:1.25vw;
+
+}
+
+.bglogo{
+	background:
+		url(../images/bg-intro-desktop.svg)
+		no-repeat
+		padding-box
+		content-box;
+	background-position:15% 30%;
+	margin-right:-8%;
+	margin-top:-10%;
+	width:100%;
+}
+.phones{
+	width:100%;
+}
+
+
+
+
+.second{
+	padding-left:10%;
+
+}
+
+.secondheadline{
+	font-weight:300;
+	font-size:3vw;
+	color:hsl(233, 26%, 24%);
+	margin:0% 0 2% 0;
+}
+
+.secondparagraph{
+	width:50%
+}
+
+
+
+
+
+.reasons{
+	display:flex;
+	justify-content:space-around;
+	margin: 5% 5% 0 10%;
+
+}
+
+.reason1{
+	margin-right:3%;
+}
+
+.reason2{
+	margin-right:3%;
+
+}
+
+.reason3{
+	
+	margin-right:3%;
+
+}
+
+.reason4{
+	margin-right:3%;
+}
+
+.reasonheadline{
+	font-weight:300;
+	font-size:1.75vw;
+	color:hsl(233, 26%, 24%);
+	margin:0;
+}
+.online , .budget , .onboarding , .api{
+
+	height:33%;
+}
+
+.articlesheadline{
+	font-weight:300;
+	font-size:3vw;
+	color:hsl(233, 26%, 24%);
+	
+	margin:10% 0 5% 10% ;
+}
+
+.articles{
+	display:flex;
+	width:90%;
+	margin-left:5%;
+}
+
+.moneypic{
+	width:90%;
+	height:18vh;
+}
+.article1, .article2, .article3, .article4{
+	margin:1%;
+}
+.srouce1 , .srouce2, .srouce3, .srouce4{
+	font-size:0.972vw;
+	margin-top:20%;
+}
+.articleheadline1 ,.articleheadline2,.articleheadline3 ,.articleheadline4{
+	all:unset;
+	color:hsl(233, 26%, 24%);
+
+}
+.headline1p , .headline2p, .headline3p, .headline4p{
+	margin:0;
+}
+.articleheadline1:hover ,.articleheadline2:hover,.articleheadline3:hover ,.articleheadline4:hover{
+	color:hsl(136, 65%, 51%);
+	cursor:pointer;
+}
+
+.textarticles , .textarticles2 , .textarticles3 , .textarticles4{
+	margin:5%;
+}
+
+.bottom{
+	background-color:hsl(233, 26%, 24%);
+	display:flex;
+	justify-content:space-around;
+}
+.bottombuttons{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	height:50%;
+}
+.homebutton2 ,.aboutusbutton2, .contactbutton2, .blogcontactbutton2, .careersbutton2, .privacy{
+	all:unset;
+	cursor:pointer;
+	font-size:1vw;
+}
+.buttonreq{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+}
+
+.requestinvbutton2{
+	all:unset;
+	width:45%;
+	background:linear-gradient(to right ,hsl(136, 65%, 51% ), hsl(192, 70%, 51% ));
+	cursor:pointer;
+	border-radius:2em;
+	padding:2% 5%  2% 5%;
+	margin-right:5%;
+	margin-right:5%;
+	color:white;	
+}
+
+.sociallogs{
+	display:flex;
+	justify-content:space-around;
+	margin-top:10%;
+}
+
+.logobottom{
+	margin-top:20%;
+}
