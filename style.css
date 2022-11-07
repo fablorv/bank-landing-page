@@ -197,7 +197,8 @@ body{
 .articles{
 	display:flex;
 	width:90%;
-	margin-left:5%;
+	margin-left:9%;
+	margin-bottom:5%;
 }
 
 .moneypic{
@@ -229,21 +230,35 @@ body{
 }
 
 .bottom{
+	height:25vh;
 	background-color:hsl(233, 26%, 24%);
 	display:flex;
-	justify-content:space-around;
+	justify-content:space-evenly;
 }
 .bottombuttons{
 	display:flex;
-	flex-direction:column;
-	flex-wrap:wrap;
-	height:50%;
+	justify-content:space-evenly;
+	margin-top:2%;
 }
+.group1bottom{
+	width:20%;
+
+}
+.group2bottom{
+	width:30%;
+}
+
 .homebutton2 ,.aboutusbutton2, .contactbutton2, .blogcontactbutton2, .careersbutton2, .privacy{
 	all:unset;
 	cursor:pointer;
 	font-size:1vw;
+	margin-top:20px;
 }
+
+.homebutton2:hover ,.aboutusbutton2:hover, .contactbutton2:hover, .blogcontactbutton2:hover, .careersbutton2:hover, .privacy:hover{
+	color:hsl(136, 65%, 51%);
+}
+
 .buttonreq{
 	display:flex;
 	flex-direction:column;
@@ -256,18 +271,161 @@ body{
 	background:linear-gradient(to right ,hsl(136, 65%, 51% ), hsl(192, 70%, 51% ));
 	cursor:pointer;
 	border-radius:2em;
-	padding:2% 5%  2% 5%;
-	margin-right:5%;
-	margin-right:5%;
+	padding:5% 15%  5% 15%;
 	color:white;	
+	margin-left:24%;
+	margin-top:10%;
 }
 
 .sociallogs{
 	display:flex;
 	justify-content:space-around;
-	margin-top:10%;
 }
 
 .logobottom{
-	margin-top:20%;
+}
+
+.bottomlogos{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+}
+
+
+@media screen and (max-width:375px){
+	.paraandbglogo{
+		flex-direction:column;
+	}
+	.first{
+		order:2
+	}
+	.bglogo{
+		margin-top:-25%;
+	}
+	.firstheadline{
+		font-size:11vw;
+		width:100%;
+	}
+	.firstparagraph{
+		width:90%;
+		font-size:4vw;
+	}
+	.firstbutton{
+		margin-left:18%;
+		padding:4% 10% 4% 10%;
+		font-size:4vw;
+	}
+	.secondheadline{
+		font-size:8vw;
+		width:50%;
+		margin-left:24%;
+		text-align:center;
+		margin-top:20%;
+
+	}
+	.secondparagraph{
+		width:100%;
+		text-align:center;
+		font-size:4vw;
+	}
+	.second{
+		padding-left:2.5%;
+	}
+	.online, .api, .budget, .onboarding{
+		margin-bottom:9%;
+	}
+	.homebutton2 ,.aboutusbutton2, .contactbutton2, .blogcontactbutton2, .careersbutton2, .privacy{
+		margin:0;
+		margin-bottom:25%;
+		font-size:4vw;
+	}
+	
+	.reasons{
+		flex-direction:column;
+		text-align:center;
+	}
+	.reasonheadline{
+		font-weight:400;
+		font-size:4.5vw;
+	}
+	.reasonpara{
+		font-size:3.7vw;
+		text-align:center;
+	}
+	.articlesheadline{
+		font-size:8vw;
+		margin:10% 0 5% 0;
+		text-align:center;
+	}
+	.articleheadline1, .articleheadline2,.articleheadline3,.articleheadline4{
+		width:100%;
+	}
+	.articles{
+		flex-direction:column;
+		width:100%;
+		margin:0;
+		font-size:4vw;
+		text-align:center;
+	}
+
+	.srouce1,.srouce2,.srouce3,.srouce4{
+		margin:0;
+		font-size:3vw;
+		text-align:start;
+
+	}
+	.headline1p,.headline2p,.headline3p,.headline4p{
+		font-size:4vw;
+		width:85%;
+		text-align:start;
+
+
+	}
+	.articlepara1, .articlepara2, .articlepara3, .articlepara4{
+		text-align:start;
+	}
+	.bottom{
+		flex-direction:column;
+		margin-top:15%;
+		height:auto;
+	}
+	.logobottom{
+		margin:10% 25% 6% 25%;
+	}
+	.sociallogs{
+		justify-content:none;
+		margin-left:40%;
+		margin-right:5%;
+		width:10%;
+
+	}
+	.bottombuttons{
+		justify-content:none;
+		flex-direction:column;
+	}
+	.group1bottom{
+		display:flex;
+		flex-direction:column;
+		margin-left:35%;
+	}
+	.group2bottom{
+		display:flex;
+		flex-direction:column;
+		margin-left:35%;
+	}
+	.requestinvbutton2{
+		width:30%;
+		padding: 5% 10% 5% 13%;
+		font-size:4vw;
+		margin-top:1%;
+	}
+	.rights{
+		font-size:4vw;
+		margin-left:20%;
+	}
+
+
+
+
+
 }
